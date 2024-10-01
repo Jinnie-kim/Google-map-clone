@@ -1,3 +1,4 @@
+import type { Place } from './api/Place';
 import Map from './components/map';
 import LocationSearch from './components/locationSearch';
 
