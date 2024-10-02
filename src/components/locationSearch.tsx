@@ -3,7 +3,7 @@ import { Fragment, useState } from 'react';
 import { search } from '../api/search';
 
 interface LocationSearchProps {
-  onPlaceCLick: (place: Place) => void;
+  onPlaceClick: (place: Place) => void;
 }
 
 export default function LocationSearch({ onPlaceClick }: LocationSearchProps) {
